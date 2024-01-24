@@ -1,0 +1,29 @@
+/* flex-wrap: can also be nowrap and wrap-reverse; */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(217, 129, 94);
+}
+
+h1 {
+    text-align: center;
+    color: #320f8b;
+}
+.flex-container > div {
+    background-color: #320f8b;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    border: solid 2px black;
+}
+
+#div1 {
+    background-color: aqua;
+    color: #320f8b;
+    align-self: order ;
+}
